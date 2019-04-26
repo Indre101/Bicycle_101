@@ -6,6 +6,7 @@
 
 body {
   overflow: hidden;
+  margin: 0;
 
 }
 
@@ -22,7 +23,6 @@ body {
   grid-template-rows: repeat(2, 1fr);
   background: linear-gradient(to right, rgb(0, 12, 46) 60%, #ffff 40%);
   font-family: "KBH bold";
-  font-size: 2em;
 }
 
 .width {
@@ -35,9 +35,15 @@ body {
   align-self: center;
   justify-self: center;
   background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
 }
 
-
+h1 {
+  align-self: center;
+}
 
 .instructions {
   grid-area: 1/2/ span 1/ span 1;

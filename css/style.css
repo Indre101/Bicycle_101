@@ -26,12 +26,12 @@ body {
 }
 
 .width {
-  border: 1px solid black;
   max-width: 250px;
   max-height: 250px;
   width: 100vw;
   height: 100vh;
   border-radius: 50%;
+  border: 1px solid black;
   align-self: center;
   justify-self: center;
   background-color: white;
@@ -51,4 +51,23 @@ h1 {
 
 .videoIn {
   grid-area: 2/2/ span 1/ span 1;
+}
+
+/* bicycle background */
+
+.bicycleContainer {
+  grid-area: 1/2/ span 1 / span 1;
+}
+
+.bicycleBG {
+  z-index: -1;
+  grid-area: 1/2/span 1 / span 1;
+  background-image: url("../Icons/BlÜ/4__Cykel_BlÜ_1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100px;
+  max-height: 100px;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
 }

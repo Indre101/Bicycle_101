@@ -77,7 +77,10 @@ iframe {
   align-self: baseline;
   z-index: 1001;
 
-  -webkit-animation: sliding 45s linear infinite forwards alternate -moz-animation: sliding 45s linear infinite forwards alternate -o-animation: sliding 45s linear infinite forwards alternate animation: sliding 45s linear infinite forwards alternate;
+  -webkit-animation: sliding 45s linear infinite forwards alternate;
+  -moz-animation: sliding 45s linear infinite forwards alternate;
+  -o-animation: sliding 45s linear infinite forwards alternate;
+  animation: sliding 45s linear infinite forwards alternate;
 
 }
 

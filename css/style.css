@@ -21,28 +21,40 @@ body {
 
 }
 
+.main {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+
+}
+
 h1 {
   font-family: "KBH bold", sans-serif;
   font-size: 3em;
   text-align: center;
+
 }
 
 
 p {
+
+  justify-self: center;
+
   font-family: 'KBH light', sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
+}
+
+ul li {
+  font-family: 'KBH light', sans-serif;
+  font-size: 1em;
+
 }
 
 iframe {
   outline-color: rgb(0, 12, 46);
   outline-style: groove;
   justify-self: center;
-  max-height: 30vh;
-  width: 40vw;
-  height: 100vh;
-}
-
-iframe:focus {
-  outline: none;
-
+  height: 45vh;
 }

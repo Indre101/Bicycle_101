@@ -68,7 +68,7 @@ iframe {
   margin-bottom: 0;
   padding: 0;
 
-  background-image: url(../Icons/Frise_Blå.png);
+  background-image: url("../Icons/Frise_Blå.png");
   background-size: contain;
   width: 100vw;
   max-height: 100px;

@@ -68,7 +68,7 @@ iframe {
   margin-bottom: 0;
   padding: 0;
 
-  background-image: url("../Icons/Frise_Blå.png");
+  background-image: url("../Icons/frise_blue.png");
   background-size: contain;
   width: 100vw;
   max-height: 100px;
@@ -76,10 +76,10 @@ iframe {
   align-self: baseline;
   z-index: 1000;
 
-  -webkit-animation: sliding 8s ease-in-out infinite forwards alternate;
-  -moz-animation: sliding 8s ease-in-out infinite forwards alternate;
-  -o-animation: sliding 8s ease-in-out infinite forwards alternate;
-  animation: sliding 8s ease-in-out infinite forwards alternate;
+  -webkit-animation: sliding 10s ease-in-out infinite forwards alternate;
+  -moz-animation: sliding 10s ease-in-out infinite forwards alternate;
+  -o-animation: sliding 10s ease-in-out infinite forwards alternate;
+  animation: sliding 10s ease-in-out infinite forwards alternate;
 
 }
 

@@ -64,7 +64,7 @@ iframe {
 
 
 .frise {
-  margin-top: 8vh;
+  margin-top: 3vh;
   margin-bottom: 0;
   padding: 0;
 
@@ -72,7 +72,7 @@ iframe {
   background-size: contain;
   background-repeat: repeat;
   width: 300vw;
-  max-height: 100px;
+  max-height: 7vh;
   height: 100vh;
   align-self: baseline;
   z-index: 1001;

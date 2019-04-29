@@ -71,7 +71,7 @@ window.onload = function (params) {
 
 function animate() {
   requestAnimationFrame(animate);
-  ctx.clearRect(0, 0, innerWidth, innerHeight);
+  // ctx.clearRect(0, 0, innerWidth, innerHeight);
 
   bicycleArray.forEach((e) => {
     e.draw();

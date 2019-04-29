@@ -1,74 +1,48 @@
 @font-face {
   font-family: 'KBH bold';
-  src: url("../fonts/KBH/TTF/KBH-Bold.ttf");
+  src: url("../fonts/KBH-Bold.ttf");
+
+}
+
+@font-face {
+  font-family: 'KBH light';
+  src: url("../fonts/KBH-Light.ttf");
 
 }
 
 body {
-  /* overflow: hidden; */
-  margin: 0;
-
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-
-
-}
-
-.menuItems {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  background: linear-gradient(to right, rgb(0, 12, 46) 60%, #ffff 40%);
-  font-family: "KBH bold";
-}
-
-.width {
-  max-width: 250px;
-  max-height: 250px;
+  overflow: hidden;
+  /* margin: 0; */
+  color: rgb(0, 12, 46);
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
-  border-radius: 50%;
-  border: 1px solid black;
-  align-self: center;
-  justify-self: center;
-  background-color: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
 
 }
 
 h1 {
-  align-self: center;
+  font-family: "KBH bold", sans-serif;
+  font-size: 3em;
+  text-align: center;
 }
 
-.instructions {
-  grid-area: 1/2/ span 1/ span 1;
+
+p {
+  font-family: 'KBH light', sans-serif;
+  font-size: 2em;
 }
 
-.videoIn {
-  grid-area: 2/2/ span 1/ span 1;
-}
-
-/* bicycle background */
-
-.bicycleContainer {
-  border: 2px solid black;
-  grid-area: 1/2/ span 1 / span 1;
+iframe {
+  outline-color: rgb(0, 12, 46);
+  outline-style: groove;
+  justify-self: center;
+  max-height: 30vh;
+  width: 40vw;
   height: 100vh;
 }
 
-.bicycleBG {
-  z-index: -1;
-  grid-area: 1/2/span 1 / span 1;
-  background-image: url("../Icons/BlÜ/4__Cykel_BlÜ_1.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  max-width: 100px;
-  max-height: 100px;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
+iframe:focus {
+  outline: none;
+
 }

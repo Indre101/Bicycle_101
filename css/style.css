@@ -74,7 +74,11 @@ iframe {
   max-height: 100px;
   height: 100vh;
   align-self: baseline;
+  z-index: 1000;
 
+  -webkit-animation: sliding 8s ease-in-out infinite forwards alternate;
+  -moz-animation: sliding 8s ease-in-out infinite forwards alternate;
+  -o-animation: sliding 8s ease-in-out infinite forwards alternate;
   animation: sliding 8s ease-in-out infinite forwards alternate;
 
 }

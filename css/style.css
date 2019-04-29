@@ -45,6 +45,7 @@ p {
 
 ul {
   margin: 0;
+  margin-bottom: 3vh;
 
 }
 
@@ -69,7 +70,6 @@ iframe {
 
   background-image: url(../Icons/Frise_Blå.png);
   background-size: contain;
-  /* background-repeat: no-repeat; */
   width: 100vw;
   max-height: 100px;
   height: 100vh;

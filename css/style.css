@@ -31,6 +31,7 @@ h1 {
   font-family: "KBH bold", sans-serif;
   font-size: 6vh;
   text-align: center;
+  margin-bottom: 2vh;
 
 }
 
@@ -67,7 +68,7 @@ iframe {
 
 
 .frise {
-  margin-top: 3vh;
+  margin-top: 6vh;
   margin-bottom: 0;
   padding: 0;
 
@@ -80,10 +81,10 @@ iframe {
   align-self: baseline;
   z-index: 1001;
 
-  -webkit-animation: sliding 45s linear infinite forwards alternate;
-  -moz-animation: sliding 45s linear infinite forwards alternate;
-  -o-animation: sliding 45s linear infinite forwards alternate;
-  animation: sliding 45s linear infinite forwards alternate;
+  -webkit-animation: sliding 50s linear infinite forwards alternate;
+  -moz-animation: sliding 50s linear infinite forwards alternate;
+  -o-animation: sliding 50s linear infinite forwards alternate;
+  animation: sliding 50s linear infinite forwards alternate;
 
 }
 

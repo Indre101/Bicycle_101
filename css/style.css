@@ -44,12 +44,15 @@ p {
 }
 
 ul {
-  margin: 0;
+
+  margin: 0 auto;
   margin-bottom: 3vh;
 
 }
 
 ul li {
+
+
   font-family: 'KBH light', sans-serif;
   font-size: 2vh;
 

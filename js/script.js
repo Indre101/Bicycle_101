@@ -38,7 +38,7 @@ let possible = [
 ];
 
 setTimeout(() => {
-  var handle = setInterval(changeImage, 100);
+  var handle = setInterval(changeImage, 80);
 }, 100);
 
 let j = 0;

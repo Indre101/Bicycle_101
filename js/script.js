@@ -70,8 +70,9 @@ function setTheImage(e) {
   switch (j) {
     case 100:
       header1.removeChild(e);
+
       let imageC = new Image();
-      imageC.src = "../Icons/BLUE/bicycle.png";
+      imageC.src = "../Icons/KBH_Maerke_UK_White_RGB.png";
       imageC.classList.add("images");
       // e.style.display = "none";
 
@@ -82,6 +83,7 @@ function setTheImage(e) {
       break;
     case 120:
       header1.removeChild(e);
+
       // e.style.display = "none";
 
       d.innerHTML = "e";
@@ -110,16 +112,13 @@ function setTheImage(e) {
       break;
     case 230:
       // e.style.display = "none";
-
       header1.removeChild(e);
-
       d.innerHTML = "m";
       header1.appendChild(d);
       break;
-    case 260:
-      // header1.removeChild(e);
-
+    case 231:
       e.style.display = "none";
+      header1.removeChild(e);
 
       let lastImage = getText(images[images.length - 1]);
       console.log(images);

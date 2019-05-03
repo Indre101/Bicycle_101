@@ -37,9 +37,9 @@ let possible = [
   image6.src
 ];
 
-var handle = setInterval(changeImage, 70);
-
-let letter;
+setTimeout(() => {
+  var handle = setInterval(changeImage, 100);
+}, 100);
 
 let j = 0;
 

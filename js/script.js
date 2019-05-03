@@ -137,8 +137,5 @@ function setTheImage(e) {
       header1.appendChild(d);
       clearInterval(handle);
       break;
-    // default:
-    //   e.src = image1.src;
-    //   break;
   }
 }

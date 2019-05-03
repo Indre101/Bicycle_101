@@ -10,12 +10,21 @@
 
 }
 
+
+
 body {
   overflow: hidden;
   color: rgb(0, 12, 46);
   display: flex;
   flex-direction: column;
 
+}
+
+#container {
+  background-color: rgb(0, 12, 46);
+  margin-top: 2vh;
+  color: white;
+  padding: 1vh;
 }
 
 .main {
@@ -27,7 +36,7 @@ body {
 
 }
 
-h1 {
+.classHeader {
   font-family: "KBH bold", sans-serif;
   font-size: 6vh;
   text-align: center;
@@ -35,6 +44,17 @@ h1 {
 
 }
 
+.images {
+  height: 6vh;
+  width: 6vw;
+  align-self: center;
+  object-fit: contain;
+}
+
+.divClass {
+  display: inline;
+  position: relative;
+}
 
 p {
 
@@ -79,6 +99,8 @@ iframe {
   max-height: 7vh;
   height: 100vh;
   align-self: baseline;
+  position: fixed;
+  bottom: 0;
 
   -webkit-animation: sliding 50s linear infinite forwards alternate;
   -moz-animation: sliding 50s linear infinite forwards alternate;

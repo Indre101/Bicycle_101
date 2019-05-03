@@ -4,7 +4,7 @@ header1.classList.add("classHeader");
 // let h = document.createElement("img"); // Create a <img> element
 // h.classList.add("images");
 
-let welcome = ["W", "e", "l", "c", "o", "m", "e"];
+let welcome = ["B", "i", "k", "i", "n", "g", " "];
 
 function getText(obj) {
   return obj.src;
@@ -76,7 +76,7 @@ function setTheImage(e) {
       imageC.classList.add("images");
       // e.style.display = "none";
 
-      d.innerHTML = "W";
+      d.innerHTML = "B";
       header1.appendChild(imageC);
 
       header1.appendChild(d);
@@ -86,51 +86,57 @@ function setTheImage(e) {
 
       // e.style.display = "none";
 
-      d.innerHTML = "e";
+      d.innerHTML = "i";
       header1.appendChild(d);
       break;
     case 150:
       header1.removeChild(e);
       // e.style.display = "none";
 
-      d.innerHTML = "l";
+      d.innerHTML = "k";
       header1.appendChild(d);
       break;
     case 180:
       header1.removeChild(e);
       // e.style.display = "none";
 
-      d.innerHTML = "c";
+      d.innerHTML = "i";
       header1.appendChild(d);
       break;
     case 200:
       header1.removeChild(e);
       // e.style.display = "none";
 
-      d.innerHTML = "o";
+      d.innerHTML = "n";
       header1.appendChild(d);
       break;
     case 230:
       // e.style.display = "none";
       header1.removeChild(e);
-      d.innerHTML = "m";
+      d.innerHTML = "g";
       header1.appendChild(d);
       break;
     case 231:
-      e.style.display = "none";
       header1.removeChild(e);
-
-      let lastImage = getText(images[images.length - 1]);
-      console.log(images);
-      console.log(images[0]);
-
-      console.log(lastImage);
-
-      d.innerHTML = "e";
+      d.innerHTML = " ";
+      header1.appendChild(d);
+      break;
+    //
+    case 232:
+      d.innerHTML = "1";
       header1.appendChild(d);
       clearInterval(handle);
       break;
-
+    case 233:
+      d.innerHTML = "0";
+      header1.appendChild(d);
+      clearInterval(handle);
+      break;
+    case 234:
+      d.innerHTML = "1";
+      header1.appendChild(d);
+      clearInterval(handle);
+      break;
     // default:
     //   e.src = image1.src;
     //   break;

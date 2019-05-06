@@ -125,17 +125,15 @@ function setTheImage(e) {
     case 232:
       d.innerHTML = "1";
       header1.appendChild(d);
-      clearInterval(handle);
       break;
     case 233:
       d.innerHTML = "0";
       header1.appendChild(d);
-      clearInterval(handle);
       break;
     case 234:
       d.innerHTML = "1";
       header1.appendChild(d);
-      clearInterval(handle);
+      // clearInterval(handle);
       break;
   }
 }

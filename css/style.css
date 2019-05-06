@@ -11,8 +11,8 @@
 }
 
 @font-face {
-  font-family: 'KBH-Demibold';
-  src: url("../fonts/KBH-Demibold.ttf");
+  font-family: 'KBH italic';
+  src: url("../fonts/KBH-LightItalic.ttf");
 
 }
 
@@ -129,7 +129,7 @@ iframe {
   width: 100vw;
   margin: 0 auto;
   margin-top: 10vh;
-  margin-bottom: 8vh;
+  margin-bottom: 10vh;
   grid-gap: 1.5vw;
 
 }
@@ -152,14 +152,15 @@ h2 {
 }
 
 h3 {
-  font-family: "KBH-Demibold", sans-serif;
+  font-family: "KBH italic", sans-serif;
   font-size: 2vh;
-  margin-bottom: 0;
+  margin-bottom: 0.2vh;
 }
 
 .extraInfo {
   font-family: "KBH-Light", sans-serif;
   margin-top: 0.1vh;
+
   font-size: 1.6vh;
   text-align: justify;
 

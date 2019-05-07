@@ -74,7 +74,6 @@ function setTheImage(e) {
       let imageC = new Image();
       imageC.src = "../Icons/KBH_Maerke_UK_White_RGB.png";
       imageC.classList.add("images");
-      // e.style.display = "none";
 
       d.innerHTML = "B";
       header1.appendChild(imageC);
@@ -84,34 +83,28 @@ function setTheImage(e) {
     case 120:
       header1.removeChild(e);
 
-      // e.style.display = "none";
-
       d.innerHTML = "i";
       header1.appendChild(d);
       break;
     case 150:
       header1.removeChild(e);
-      // e.style.display = "none";
 
       d.innerHTML = "k";
       header1.appendChild(d);
       break;
     case 180:
       header1.removeChild(e);
-      // e.style.display = "none";
 
       d.innerHTML = "i";
       header1.appendChild(d);
       break;
     case 200:
       header1.removeChild(e);
-      // e.style.display = "none";
 
       d.innerHTML = "n";
       header1.appendChild(d);
       break;
     case 230:
-      // e.style.display = "none";
       header1.removeChild(e);
       d.innerHTML = "g";
       header1.appendChild(d);
@@ -133,7 +126,6 @@ function setTheImage(e) {
     case 234:
       d.innerHTML = "1";
       header1.appendChild(d);
-      // clearInterval(handle);
       break;
   }
 }
